@@ -1,7 +1,7 @@
 {
   "name": "popper.js",
   "filename": "umd/popper.min.js",
-  "version": "1.16.1",
+  "version": "2.3.3",
   "description": "A kickass library to manage your poppers",
   "repository": {
     "type": "git",

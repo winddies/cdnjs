@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var ShapeType;
+(function (ShapeType) {
+    ShapeType["char"] = "char";
+    ShapeType["character"] = "character";
+    ShapeType["circle"] = "circle";
+    ShapeType["edge"] = "edge";
+    ShapeType["heart"] = "heart";
+    ShapeType["image"] = "image";
+    ShapeType["line"] = "line";
+    ShapeType["polygon"] = "polygon";
+    ShapeType["square"] = "square";
+    ShapeType["star"] = "star";
+    ShapeType["triangle"] = "triangle";
+})(ShapeType = exports.ShapeType || (exports.ShapeType = {}));

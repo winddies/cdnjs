@@ -1,0 +1,16 @@
+import type { IColor } from "../../Interfaces/Options/Particles/IColor";
+import type { IRgb } from "../../Interfaces/IRgb";
+import type { IRgba } from "../../Interfaces/IRgba";
+import type { IHsl } from "../../Interfaces/IHsl";
+import type { IHsla } from "../../Interfaces/IHsla";
+export declare class ColorUtils {
+    static colorToRgb(color: IColor): IRgb | undefined;
+    static stringToAlpha(input: string): number | undefined;
+    static stringToRgb(input: string): IRgb | undefined;
+    static hslToRgb(hsl: IHsl): IRgb;
+    static hslaToRgba(hsla: IHsla): IRgba;
+    static getRandomRgbColor(min?: number): IRgb;
+    static getStyleFromColor(color: IRgb, opacity?: number): string;
+    private static hue2rgb;
+    private static stringToRgba;
+}

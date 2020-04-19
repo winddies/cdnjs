@@ -1,0 +1,17 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.DPR_QUALITY_VALUES = exports.DPR_QUALITY = void 0;
+var DPR_QUALITY = {
+  q_dpr1: 75,
+  q_dpr2: 50,
+  q_dpr3: 35,
+  q_dpr4: 23,
+  q_dpr5: 20
+};
+exports.DPR_QUALITY = DPR_QUALITY;
+var DPR_QUALITY_VALUES = Object.values(DPR_QUALITY);
+exports.DPR_QUALITY_VALUES = DPR_QUALITY_VALUES;
+//# sourceMappingURL=constants.js.map

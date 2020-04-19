@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/constants.js"],"names":["CONSTANTS"],"mappings":";;;;;AAAA,IAAMA,YAAY,EAAlB;;kBAEeA,S","file":"constants.js","sourcesContent":["const CONSTANTS = {};\n\nexport default CONSTANTS;\n"]}

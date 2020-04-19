@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../../node_modules/ng-packagr/package.schema.json",
+  "name": "angulartics2/hubspot",
+  "description": "The hubspot module",
+  "homepage": "https://angulartics.github.io/angulartics2/",
+  "author": "João Ribeiro <jonnybgod@gmail.com> (http://github.com/JonnyBGod)",
+  "repository": "angulartics/angulartics2",
+  "typings": "angulartics2-hubspot.d.ts",
+  "license": "MIT",
+  "main": "bundles/angulartics2-hubspot.umd.js",
+  "module": "fesm5/angulartics2-hubspot.js",
+  "es2015": "fesm2015/angulartics2-hubspot.js",
+  "esm5": "esm5/angulartics2-hubspot.js",
+  "esm2015": "esm2015/angulartics2-hubspot.js",
+  "fesm5": "fesm5/angulartics2-hubspot.js",
+  "fesm2015": "fesm2015/angulartics2-hubspot.js",
+  "metadata": "angulartics2-hubspot.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

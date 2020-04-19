@@ -1,7 +1,7 @@
 {
   "name": "fuse.js",
   "filename": "fuse.min.js",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "description": "Lightweight fuzzy-search",
   "homepage": "http://kiro.me/projects/fuse.html",
   "keywords": [

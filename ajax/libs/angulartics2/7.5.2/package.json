@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../node_modules/ng-packagr/package.schema.json",
+  "name": "angulartics2",
+  "description": "Vendor-agnostic web analytics for Angular2 applications",
+  "version": "7.5.2",
+  "release": {
+    "branch": "master"
+  },
+  "author": "João Ribeiro <jonnybgod@gmail.com> (http://github.com/JonnyBGod)",
+  "homepage": "https://angulartics.github.io/angulartics2/",
+  "repository": "angulartics/angulartics2",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "angular2",
+    "ng2",
+    "ngx",
+    "analytics",
+    "tracking",
+    "google analytics",
+    "google tag manager",
+    "gtag",
+    "woopra",
+    "splunk",
+    "piwik",
+    "inspectlet",
+    "hubspot",
+    "interecom",
+    "kissmetrics",
+    "segment",
+    "amplitude",
+    "baidu"
+  ],
+  "peerDependencies": {
+    "@angular/common": ">=6.0.0 <9.0.0",
+    "@angular/core": ">=6.0.0 <9.0.0",
+    "rxjs": "^6.1.0"
+  },
+  "main": "bundles/angulartics2.umd.js",
+  "module": "fesm5/angulartics2.js",
+  "es2015": "fesm2015/angulartics2.js",
+  "esm5": "esm5/angulartics2.js",
+  "esm2015": "esm2015/angulartics2.js",
+  "fesm5": "fesm5/angulartics2.js",
+  "fesm2015": "fesm2015/angulartics2.js",
+  "typings": "angulartics2.d.ts",
+  "metadata": "angulartics2.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

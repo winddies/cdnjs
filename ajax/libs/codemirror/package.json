@@ -1,7 +1,7 @@
 {
   "name": "codemirror",
   "filename": "codemirror.min.js",
-  "version": "5.52.2",
+  "version": "5.53.0",
   "description": "In-browser code editing made bearable",
   "keywords": [
     "JavaScript",

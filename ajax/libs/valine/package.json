@@ -1,7 +1,7 @@
 {
   "name": "valine",
   "filename": "Valine.min.js",
-  "version": "1.4.11",
+  "version": "1.4.12",
   "description": "A fast, simple & powerful comment system.",
   "keywords": [
     "comment-system",
